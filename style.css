@@ -1,0 +1,59 @@
+/* styles.css */
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+.amiri { font-family: 'Amiri', serif; }
+
+.navbar-custom {
+    background-color: #2D9596;
+}
+
+.navbar-custom .navbar-brand {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5vw;
+    padding-left: 2%;
+}
+
+#daftar-surah, #text-arabic {
+    background-color: #9AD0C2;
+}
+
+#daftar-surah .list-group-item {
+    background-color: #F1FADA;
+    cursor: pointer;
+}
+
+#daftar-surah .list-group-item.active {
+    background-color: #3D9970 !important;
+}
+
+body {
+    background-color: #265073;
+}
+
+.profile-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-container {
+    background-color: #F1FADA;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.arabic-text,
+.latin-text,
+.indonesia-text {
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.surah-meaning {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.latin-text,
+.indonesia-text {
+    font-size: 70%;
+}
